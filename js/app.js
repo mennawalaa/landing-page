@@ -30,7 +30,7 @@ const navmenu=document.getElementById('navbar__menu');
 let options={
     root:null,
     rootMargin:'0px',
-    threshold:0.75
+    threshold:0.55
   };
 
 
