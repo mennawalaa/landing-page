@@ -73,7 +73,6 @@ section {
 
 .navbar__menu li {
     display: inline-block;
-    padding: 2em;
 }
 
 .navbar__menu .menu__link {
@@ -227,18 +226,14 @@ section.your-active-class.landing__container::after {
 /*add "item-active-class" for navigation list added dynamically with javascript */
 .item-active-class{
   background: #fff;
-  padding: 2em;
-
 }
 /*reponsive design using media querySelector*/
 @media only screen and (max-width: 600px){
   .navbar__menu li {
       display: block;
-
   }
   .item-active-class{
     background: #fff;
-    width:inherit;
   }
 
 }
